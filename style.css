@@ -1,11 +1,25 @@
+// 전체
 html, body {
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 400;
     word-break: keep-all;
-    line-height: 1.6;
+    line-height: 1;
     letter-spacing: -0.03em;
 }
-    
+
+.W1400 {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+// 여백
+.sectionT150 {
+    margin-top: 150px;
+}
+.sectionB150 {
+    margin-bottom: 150px;
+}
+
 .padding100 {
     padding: 0 100px;
 }
@@ -14,41 +28,41 @@ html, body {
     padding-bottom: 100px;
 }
 
-.section150 {
-    margin-bottom: 150px;
+// 폰트
+.fontM {
+    font-weight: 500;
 }
 
-// .contentP {
-//     padding: 100px 260px;
-// }
+// 색상
+.colorRed {
+    color: #E51F1F;
+}
+.colorDarkgray {
+    color: #333333;
+}
 
+// 컨텐츠 별 스타일
+// 메인-서브 타이틀
 .titleStyle {
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
-    letter-spacing: -0.03em;
 }
 
 .readStyle {
-    font-weight: 400;
     font-size: 24px;
+    font-weight: 400;
     line-height: 35px;
-    letter-spacing: -0.03em;
 }
 
+// section 1
 .growthL {
     font-size: 48px;
-    font-weight: 500;
-    letter-spacing: -0.03em;
-    line-height: 1;
     margin-bottom: 20px;
 }
 
 .growthNumber {
     font-size: 126px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
-    line-height: 1; 
     margin: 0;
 }
 
@@ -58,7 +72,6 @@ html, body {
 
 .growthPercent {
     font-size: 54px;
-    font-weight: 500;
     vertical-align: top;
 }
 
@@ -70,18 +83,19 @@ html, body {
 
 .growthR {
     font-size: 34px; 
-    font-weight: 500; 
-    letter-spacing: -0.03em;
 }
 
 .growthRnumber {
     font-size: 54px;
-    font-weight: 700;
 }
 
+.growPadding {
+    padding-bottom: 40px;
+}
+
+// banner 1
 .bannerText {
     font-size: 32px; 
-    font-weight: 700; 
     line-height: 48px; 
     letter-spacing: -0.03em;
 }
@@ -90,7 +104,6 @@ html, body {
     background:#FF3B3B; 
     border-radius:10px; 
     font-size: 26px; 
-    font-weight: 700; 
     width:220px; 
     height:60px;
 }
@@ -116,7 +129,6 @@ html, body {
 
 .cardListN {
     font-size: 46px;
-    font-weight: 200;
     letter-spacing: -0.03em;
     color: #FE3939;
     line-height: 1;
@@ -125,7 +137,6 @@ html, body {
 
 .cardListTitle {
     font-size: 28px;
-    font-weight: 600;
     letter-spacing: -0.03em;
     line-height: 1;
     padding-bottom: 5px;
@@ -133,23 +144,12 @@ html, body {
 
 .cardListRead {
     font-size: 24px;
-    font-weight: 300;
     letter-spacing: -0.03em;
     line-height: 1;
 }
 
 .teamText {
     font-size: 24px;
-}
-
-.teamTextSB {
-    font-weight: 600;
-}
-.teamTextM {
-    font-weight: 500;
-}
-.teamTextL {
-    font-weight: 200;
 }
 
 .teamPadding {
