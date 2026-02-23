@@ -5,12 +5,6 @@ html, body {
     line-height: 1.6;
     letter-spacing: -0.03em;
 }
-
-.imwRow {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  --bs-gutter-x: 0;
-}
     
 .padding100 {
     padding: 0 100px;
@@ -20,13 +14,13 @@ html, body {
     padding-bottom: 100px;
 }
 
-.margin150 {
+.section150 {
     margin-bottom: 150px;
 }
 
-.contentP {
-    padding: 100px 260px;
-}
+// .contentP {
+//     padding: 100px 260px;
+// }
 
 .titleStyle {
     font-size: 48px;
@@ -40,4 +34,124 @@ html, body {
     font-size: 24px;
     line-height: 35px;
     letter-spacing: -0.03em;
+}
+
+.growthL {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.growthNumber {
+    font-size: 126px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1; 
+    margin: 0;
+}
+
+.growthComma {
+    font-size: 48px;
+}
+
+.growthPercent {
+    font-size: 54px;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.growthLine {
+    width:1px;
+    background:#D9D9D9;
+    height:100%;
+}
+
+.growthR {
+    font-size: 34px; 
+    font-weight: 500; 
+    letter-spacing: -0.03em;
+}
+
+.growthRnumber {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.bannerText {
+    font-size: 32px; 
+    font-weight: 700; 
+    line-height: 48px; 
+    letter-spacing: -0.03em;
+}
+
+.btnStyle {
+    background:#FF3B3B; 
+    border-radius:10px; 
+    font-size: 26px; 
+    font-weight: 700; 
+    width:220px; 
+    height:60px;
+}
+
+.cardList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 688px 688px;
+  grid-template-rows: 200px 200px;
+  gap: 24px;
+  justify-content: center;
+}
+
+.cardList li {
+  width: 688px;
+  height: 200px;
+  background: #F8F8F8;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.cardListN {
+    font-size: 46px;
+    font-weight: 200;
+    letter-spacing: -0.03em;
+    color: #FE3939;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.cardListTitle {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    padding-bottom: 5px;
+}
+
+.cardListRead {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    line-height: 1;
+}
+
+.teamText {
+    font-size: 24px;
+}
+
+.teamTextSB {
+    font-weight: 600;
+}
+.teamTextM {
+    font-weight: 500;
+}
+.teamTextL {
+    font-weight: 200;
+}
+
+.teamPadding {
+    padding-left: 150px;
 }
