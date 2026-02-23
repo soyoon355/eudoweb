@@ -1,3 +1,5 @@
+html { outline: 10px solid hotpink !important; }
+
 // 전체
 html, body {
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif;
