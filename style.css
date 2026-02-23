@@ -1,0 +1,33 @@
+html, body {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  word-break: keep-all;
+  line-height: 1.6;
+  letter-spacing: -0.03em;
+}
+
+.padding100 {
+  padding: 0 100px;
+}
+
+.margin150 {
+  margin-bottom: 150px;
+}
+
+.contentP {
+  padding: 100px 260px;
+}
+
+.titleStyle {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: -0.03em;
+}
+
+.readStyle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: -0.03em;
+}/*# sourceMappingURL=style.css.map */
