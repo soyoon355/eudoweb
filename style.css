@@ -1,11 +1,9 @@
-* { outline: 1px solid hotpink !important; }
-
 // 전체
 html, body {
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif;
     word-break: keep-all;
     line-height: 1;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.03em !important;
 }
 
 .W1400 {
@@ -22,15 +20,25 @@ html, body {
     margin-bottom: 150px;
 }
 
-.padding100 {
+.paddingLR100 {
     padding: 0 100px;
 }
 
+.paddingTB100 {
+    padding: 100px 0;
+}
+
+.paddingTop100 {
+    padding-top: 100px;
+}
 .paddingBottom100 {
     padding-bottom: 100px;
 }
 
 // 폰트
+.fontL {
+    font-weight: 200;
+}
 .fontM {
     font-weight: 500;
 }
@@ -39,8 +47,8 @@ html, body {
 .colorRed {
     color: #E51F1F;
 }
-.colorDarkgray {
-    color: #333333;
+.bgColorDarkgray {
+    background-color: #333333;
 }
 
 // 컨텐츠 별 스타일
@@ -96,6 +104,11 @@ html, body {
 }
 
 // banner 1
+.bannerSize {
+    min-height: 150px;
+    padding: 30px 260px;
+}
+
 .bannerText {
     font-size: 32px; 
     line-height: 48px; 
@@ -110,6 +123,7 @@ html, body {
     height:60px;
 }
 
+// section 2
 .cardList {
   list-style: none;
   padding: 0;
@@ -131,23 +145,17 @@ html, body {
 
 .cardListN {
     font-size: 46px;
-    letter-spacing: -0.03em;
     color: #FE3939;
-    line-height: 1;
     padding-bottom: 20px;
 }
 
 .cardListTitle {
     font-size: 28px;
-    letter-spacing: -0.03em;
-    line-height: 1;
     padding-bottom: 5px;
 }
 
 .cardListRead {
     font-size: 24px;
-    letter-spacing: -0.03em;
-    line-height: 1;
 }
 
 .teamText {
@@ -157,3 +165,5 @@ html, body {
 .teamPadding {
     padding-left: 150px;
 }
+
+// section 3
