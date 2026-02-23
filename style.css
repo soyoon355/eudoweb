@@ -1,4 +1,4 @@
-html { outline: 10px solid hotpink !important; }
+html { background-color : #333333; !important; }
 
 // 전체
 html, body {
