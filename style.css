@@ -1,124 +1,129 @@
+// 전체
 html, body {
-  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
-  word-break: keep-all;
-  line-height: 1;
-  letter-spacing: -0.03em !important;
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif;
+    word-break: keep-all;
+    line-height: 1;
+    letter-spacing: -0.03em !important;
 }
 
 .W1400 {
-  width: 1400px;
-  margin: 0 auto;
-  position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
 }
 
+// 여백
 .sectionT150 {
-  margin-top: 150px;
+    margin-top: 150px;
 }
-
 .sectionB150 {
-  margin-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 .paddingLR100 {
-  padding: 0 100px;
+    padding: 0 100px;
 }
 
 .paddingTB100 {
-  padding: 100px 0;
+    padding: 100px 0;
 }
 
 .paddingTop100 {
-  padding-top: 100px;
+    padding-top: 100px;
 }
-
 .paddingBottom100 {
-  padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
+// 폰트
 .fontL {
-  font-weight: 200;
+    font-weight: 200;
 }
-
 .fontM {
-  font-weight: 500;
+    font-weight: 500;
 }
 
+// 색상
 .colorRed {
-  color: #E51F1F;
+    color: #E51F1F;
 }
-
 .bgColorDarkgray {
-  background-color: #333333;
+    background-color: #333333;
 }
 
+// 컨텐츠 별 스타일
+// 메인-서브 타이틀
 .titleStyle {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 58px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
 }
 
 .readStyle {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
 }
 
+// section 1
 .growthL {
-  font-size: 48px;
-  margin-bottom: 20px;
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
 .growthNumber {
-  font-size: 126px;
-  margin: 0;
+    font-size: 100px;
+    margin: 0;
 }
 
 .growthComma {
-  font-size: 48px;
+    font-size: 36px;
 }
 
 .growthPercent {
-  font-size: 54px;
-  vertical-align: top;
+    font-size: 54px;
+    vertical-align: top;
 }
 
 .growthLine {
-  width: 1px;
-  background: #D9D9D9;
-  height: 100%;
+    width:1px;
+    background:#D9D9D9;
+    height:100%;
 }
 
 .growthR {
-  font-size: 34px;
+    font-size: 28px; 
 }
 
 .growthRnumber {
-  font-size: 54px;
+    font-size: 48px;
 }
 
 .growPadding {
-  padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
+// banner 1
 .bannerSize {
-  min-height: 150px;
-  padding: 30px 260px;
+    min-height: 150px;
+    padding: 30px 260px;
 }
 
 .bannerText {
-  font-size: 32px;
-  line-height: 48px;
-  letter-spacing: -0.03em;
+    font-size: 32px; 
+    line-height: 48px; 
+    letter-spacing: -0.03em;
 }
 
 .btnStyle {
-  background: #FF3B3B;
-  border-radius: 10px;
-  font-size: 26px;
-  width: 220px;
-  height: 60px;
+    background:#FF3B3B; 
+    border-radius:10px; 
+    font-size: 26px; 
+    width:220px; 
+    height:60px;
 }
 
+// section 2
 .cardList {
   list-style: none;
   padding: 0;
@@ -139,24 +144,26 @@ html, body {
 }
 
 .cardListN {
-  font-size: 46px;
-  color: #FE3939;
-  padding-bottom: 20px;
+    font-size: 46px;
+    color: #FE3939;
+    padding-bottom: 20px;
 }
 
 .cardListTitle {
-  font-size: 28px;
-  padding-bottom: 5px;
+    font-size: 28px;
+    padding-bottom: 5px;
 }
 
 .cardListRead {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .teamText {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .teamPadding {
-  padding-left: 150px;
-}/*# sourceMappingURL=style.css.map */
+    padding-left: 150px;
+}
+
+// section 3
