@@ -27,6 +27,10 @@ html, body {
   padding: 100px 0;
 }
 
+.paddingTB150 {
+  padding: 150px 0;
+}
+
 .paddingTop100 {
   padding-top: 100px;
 }
