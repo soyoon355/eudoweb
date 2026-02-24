@@ -59,12 +59,20 @@ html, body {
   font-size: 18px;
 }
 
+.lineHeight29 {
+  line-height: 29px;
+}
+
 .colorRed {
   color: #E51F1F;
 }
 
 .bgColorDarkgray {
   background-color: #333333;
+}
+
+.bgColorLightgray {
+  background-color: #f2f2f2;
 }
 
 .titleStyle {
@@ -190,4 +198,12 @@ html, body {
   background-color: #FF3B3B;
   position: relative;
   z-index: 2;
+}
+
+.card2List {
+  width: 390px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
 }/*# sourceMappingURL=style.css.map */
