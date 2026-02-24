@@ -51,6 +51,10 @@ html, body {
   font-weight: 500;
 }
 
+.font24 {
+  font-size: 24px;
+}
+
 .colorRed {
   color: #E51F1F;
 }
@@ -158,14 +162,6 @@ html, body {
 .cardListTitle {
   font-size: 28px;
   padding-bottom: 5px;
-}
-
-.cardListRead {
-  font-size: 24px;
-}
-
-.teamText {
-  font-size: 24px;
 }
 
 .teamPadding {
